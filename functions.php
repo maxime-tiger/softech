@@ -156,3 +156,8 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
+function wptuts_scripts_with_jquery() {
+    wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/script.js', array( 'jquery' ));
+}
+add_action( 'wp_enqueue_scripts', 'wptuts_scripts_with_jquery' );

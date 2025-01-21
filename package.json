@@ -1,0 +1,11 @@
+{
+  "name": "softech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path scss style.scss   style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

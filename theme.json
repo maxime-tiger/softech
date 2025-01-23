@@ -6,7 +6,7 @@
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
-			"defaultPalette": false,
+			"defaultPalette": true,
 			"palette": [
 				{
 					"color": "#FFFFFF",

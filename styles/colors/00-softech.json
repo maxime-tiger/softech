@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 1,
+	"title": "SofTech",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ebf0f0",
+					"name": "Gris 1",
+					"slug": "grey-1"
+				},
+				{
+					"color": "#f6f7f7",
+					"name": "Gris 2",
+					"slug": "grey-2"
+				},
+				{
+					"color": "#0f58d6",
+					"name": "Bleu 1",
+					"slug": "blue-1"
+				},
+				{
+					"color": "#264357",
+					"name": "Bleu 2",
+					"slug": "blue-2"
+				}
+			]
+		}
+	}
+}

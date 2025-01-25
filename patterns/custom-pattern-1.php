@@ -10,7 +10,7 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"7.5rem","bottom":"7.5rem"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"categories":["column"],"patternName":"softech/column-with-image","name":"Colonne avec Image"},"align":"full","style":{"spacing":{"padding":{"top":"7.5rem","bottom":"7.5rem"}}},"backgroundColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-background-color has-background" style="padding-top:7.5rem;padding-bottom:7.5rem"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"588px","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
 <div class="wp-block-column is-vertically-aligned-center has-contrast-color has-text-color has-link-color" style="flex-basis:588px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"typography":{"fontSize":"18px","fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast"} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":59,"width":"704px","height":"939px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img style="object-fit:cover;width:704px;height:939px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img alt="" class="wp-image-59" style="object-fit:cover;width:704px;height:939px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

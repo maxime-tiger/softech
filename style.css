@@ -70,6 +70,8 @@ header {
       position: absolute;
       right: 50%;
       transform: translateX(50%); }
+      header div:has(.wp-block-site-title) .wp-block-site-title:hover a {
+        text-decoration: none; }
 
 .fullscreen-banner {
   height: 100vh; }

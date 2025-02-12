@@ -86,6 +86,12 @@ header {
       position: absolute;
       right: 50%;
       transform: translateX(50%);
+
+      &:hover {
+        a {
+          text-decoration: none;
+        }
+      }
     }
   }
 }

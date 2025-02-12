@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
   margin-block-end: 0 !important;
 }
 
+// Header
 header {
   position: sticky;
   top: 0;
@@ -77,6 +78,16 @@ header {
   width: 100%;
   z-index: 999;
   background-color: #ffffffb3;
+
+  div:has(.wp-block-site-title) {
+    position: relative;
+
+    .wp-block-site-title {
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }
 }
 
 .fullscreen-banner {
